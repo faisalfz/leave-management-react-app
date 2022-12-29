@@ -3,7 +3,7 @@ import './Wallchart.css';
 
 const Wallchart = () => {
   return (
-    <>
+    <div className='wallchart-body'>
       <div className="main-section">
       <div className="section-column1">
         <div className="employee-short-desc">
@@ -185,7 +185,7 @@ const Wallchart = () => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   )
 }
 
