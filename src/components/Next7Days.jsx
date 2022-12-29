@@ -46,7 +46,7 @@ const Next7Days = () => {
         </div>
       </div>
 
-      {UniqueDates}
+      {/* {UniqueDates} */}
     </>
   );
 };
