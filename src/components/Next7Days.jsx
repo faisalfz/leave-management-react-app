@@ -27,7 +27,7 @@ const Next7Days = () => {
     <>
       <div class="column-next-7-day">
         <div class="title">
-          <h1>In next 7 days</h1>
+          <h2>In next 7 days</h2>
         </div>
         <div className="next-week-container">
           <div class="date firstDate">

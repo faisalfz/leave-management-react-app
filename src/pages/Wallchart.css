@@ -129,6 +129,7 @@
     .pending-icon-button i {
       background-color: #6a7b8d;
       font-size: 14px;
+      margin-right: 4px;
       padding: 4px;
       border-radius: 50%;
       color: rgba(255, 255, 255, 0.822);

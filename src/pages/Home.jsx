@@ -16,7 +16,7 @@ const Home = () => {
         </div>
       </section>
       <section class="section2">
-        <h1 class="table-title"> Requests for leave</h1>
+        <h2 class="table-title"> Requests for leave</h2>
         <TableLeaveRequest />
       </section>
     </>

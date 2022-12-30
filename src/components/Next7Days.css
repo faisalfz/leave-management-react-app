@@ -100,3 +100,10 @@ img {
 }
 
 
+/* Tablet */
+@media (width <=768px) {
+  .next-week-container {
+    padding: 8px 8px 0px 0px;
+  
+  }
+}

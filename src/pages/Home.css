@@ -48,6 +48,14 @@ section.section2 {
 
 /* Normal Laptop  */
 @media (width <= 1024px) {
+  .section1-column1 {
+    width: 65%;
+  }
+
+  .section1-column2 {
+    width: 35%;
+  }
+
   section.section1 {
     padding: 0px 28px;
   }

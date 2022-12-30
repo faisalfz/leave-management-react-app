@@ -21,13 +21,15 @@ const TableLeaveRequest = () => {
     <>
       <div className="table-container">
         <table className="table-leave-request">
-          <tr className="table-heading-row">
-            <th>Employee Name</th>
-            <th>Leave Type</th>
-            <th>From-To</th>
-            <th> </th>
-          </tr>
-          {TableData.map(TableRow)};
+          <thead>
+            <tr className="table-heading-row">
+              <th>Employee Name</th>
+              <th>Leave Type</th>
+              <th>From-To</th>
+              <th> </th>
+            </tr>
+          </thead>
+          <tbody>{TableData.map(TableRow)};</tbody>
         </table>
       </div>
     </>
