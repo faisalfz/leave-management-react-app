@@ -1,0 +1,120 @@
+.allLeaves {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.leave {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  background-color: white;
+  border: 0px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.192);
+}
+
+.whitePart {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-evenly;
+  height: 60vh;
+  padding: 8px 20px 20px 20px;
+}
+
+.leaveLabel {
+  font-size: 20px;
+  color: #7c7c7c;
+  font-weight: 500;
+}
+
+.secondRow {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.leaveTotal {
+  color: #353a46;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 900;
+}
+
+.iconPercent {
+  font-size: 20px;
+  color: #24bbe6;
+}
+
+.blackPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh;
+  color: white;
+  background-color: #353a46;
+  padding: 0px 20px;
+  font-size: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.thirdLeave .iconPercent {
+  color: #df2879;
+}
+
+/* Large Laptop  */
+@media (width > 1024px) {
+}
+
+/* Normal Laptop  */
+@media (width <= 1024px) {
+  .allLeaves {
+    gap: 8px;
+  }
+
+  .leave {
+    height: 240px;
+  }
+
+  .leaveTotal {
+    
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+  
+  .iconPercent {
+    font-size: 16px;
+  }
+  
+  .blackPart {
+    font-size: 16px;
+  }
+
+  .leaveLabel {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media (width <=768px) {
+  .allLeaves {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+/* Large Mobile */
+@media (width <=425px) {
+}
+
+/* Medium Mobile */
+@media (320px < width <=375px) {
+}
+
+/* Small Mobile */
+@media (280px<= width <= 320px) {
+}

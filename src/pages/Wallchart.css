@@ -1,0 +1,355 @@
+.wallchart-body {
+  background-color: #f3f5f7;
+
+}
+
+/* Main Section Start
+    --------------------- */
+    .main-section {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 20px;
+      padding: 0px 40px;
+      padding-top: 40px;
+    }
+  
+    /* Main Section Column 1 Start 
+      ----------------------------*/
+  
+    /* Availability Details Start
+      --------------------------- */
+    .section-column1 {
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+      gap: 20px;
+    }
+  
+    .employee-short-desc {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      /* gap: 30px; */
+      /* padding: 12px; */
+    }
+  
+    .employee-name-image {
+      min-width: 30%;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+    }
+  
+    .employee-short-desc img {
+      width: 120px;
+      padding: 2px;
+      /* height: 100px; */
+      border: 2px solid #9bdbe8;
+      border-radius: 50%;
+    }
+  
+    .emplyee-name-designation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .employee-name {
+      font-size: 28px;
+      font-weight: bold;
+      color: #2d343d;
+    }
+  
+    .employee-designation {
+      font-size: 16px;
+      font-weight: 600;
+      color: #6c7e92;
+    }
+  
+    .availability-details {
+      /* min-width: 70%; */
+      display: flex;
+      justify-content: space-between;
+      column-gap: 40px;
+      /* align-items: stretch; */
+      padding: 12px 8px;
+      border: 2px solid #e6eaed;
+      border-radius: 4px;
+    }
+  
+    .availability-details > .col {
+      display: flex;
+      flex-direction: column;
+      /* justify-content:space-between; */
+      gap: 20px;
+    }
+  
+    /* Availability Details End
+      --------------------------------------------- */
+  
+    /* Submit Request PTO Start
+      ------------------------- */
+    .pto-main-section {
+      /* max-width: 768px; */
+      /* margin: 0 auto; */
+      padding: 20px;
+      border-radius: 12px;
+      background-color: rgb(255, 255, 255);
+    }
+  
+    .pto-section1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      /* border: 1px solid black; */
+    }
+  
+    .pto-section1 h2 {
+      font-size: 20px;
+    }
+  
+    .pending-icon-button button {
+      background-color: #f4f5f7;
+      color: #727272;
+      /* font-weight: 600; */
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      padding: 8px;
+      min-width: 120px;
+      text-align: start;
+      cursor: pointer;
+    }
+  
+    .pending-icon-button i {
+      background-color: #6a7b8d;
+      font-size: 14px;
+      padding: 4px;
+      border-radius: 50%;
+      color: rgba(255, 255, 255, 0.822);
+    }
+  
+    .pto-section2 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      column-gap: 32px;
+      row-gap: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+      /* border: 1px solid red; */
+    }
+  
+    .date-from-to {
+      display: flex;
+      /* flex-wrap: wrap; */
+      /* justify-content: space-between; */
+      gap: 12px;
+      align-items: center;
+      font-size: 16px;
+      font-weight: 600;
+      /* border: 1px solid blue; */
+    }
+  
+    .date-box {
+      /* min-width: 172px; */
+      min-width: 48%;
+      padding: 20px 12px;
+      gap: 16px;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid #f3f3f3;
+      border-radius: 8px;
+    }
+  
+    .date-from-to .day {
+      font-size: 12px;
+    }
+  
+    .date-from-to .year {
+      color: #d1d7e0;
+    }
+  
+    .month-year {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+  
+    .between-icon i {
+      color: #697d90;
+    }
+  
+    .pto-section-2-column3 {
+      display: flex;
+      flex-direction: column;
+      text-align: end;
+      gap: 12px;
+      font-size: 16px;
+      /* font-weight: 500; */
+    }
+  
+    .requested-days {
+      color: #8a8989;
+    }
+  
+    .btn-propose-change button {
+      color: #78bfce;
+      border: none;
+      background-color: #f9fafc;
+      font-size: 16px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+  
+    .btn-propose-change button i {
+      margin-right: 8px;
+    }
+  
+    .pto-section3 .pto-request-reason {
+      background-color: #f9fafc;
+      min-height: 100px;
+      padding: 12px;
+      margin-bottom: 40px;
+      border: 2px solid #f3f3f3;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .pto-section4 {
+      margin-bottom: 20px;
+    }
+  
+    .pto-section4 .mng-form-title {
+      font-size: 16px;
+      font-weight: 600;
+      border-top: 2px solid #f3f3f3;
+      padding: 28px 0px;
+    }
+  
+    .pto-section4 .input-note textarea[name="input-note"] {
+      width: 100%;
+      min-height: 100px;
+      border: 2px solid #f3f3f3;
+      padding: 8px 8px 40px 8px;
+      vertical-align: bottom;
+    }
+  
+    ::placeholder {
+      color: #d1d2d3;
+      font-size: 15px;
+    }
+  
+    .pto-section5 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+  
+    .pto-section5 button {
+      min-width: 150px;
+      padding: 12px 16px;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  
+    .pto-section5 button.btn-reject-request {
+      border: 2px solid #ee7878;
+      color: #ee7878;
+      background-color: transparent;
+    }
+  
+    .pto-section5 button.btn-approve-request {
+      border: none;
+      background-color: #56afc1;
+      color: rgba(255, 255, 255, 0.904);
+    }
+  
+    /* Submit Request PTO End
+      ------------------------------------------------- */
+  
+    /* Main Section Column 1 End 
+      ------------------------------------------------- */
+  
+    /* Main Section Column 2 Sidebar Start
+      ------------------------------------- */
+    .sidebar {
+      display: block;
+      width: 25%;
+      background-color: white;
+      padding: 8px;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    .sidebar-title {
+      font-size: 24px;
+    }
+  
+    tr.holiday-row td {
+      padding: 8px 4px;
+    }
+  
+    tr.holiday-row:not(tr.holiday-row:last-child) {
+      border-bottom: 2px solid #f1f1f1;
+    }
+  
+    .holiday-date-day {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .holiday .holiday-date,
+    .holiday-name {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  
+    .holiday .holiday-day {
+      color: #909090;
+    }
+  
+    .col .details-title {
+      font-size: 16px;
+      color: #909090;
+    }
+  
+    .col .value.value1 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #686666;
+    }
+  
+    .col .value.value2 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #51af9b;
+    }
+  
+    .col .value.value3 {
+      font-size: 28px;
+      font-weight: 600;
+      color: black;
+    }
+  
+    .holiday-name {
+      text-align: right;
+    }
+    /* Main Section Column 2 Sidebar End
+      ----------------------------------------------------------- */
+  
+    /* Main Section End
+      --------------------------------- */

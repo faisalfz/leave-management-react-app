@@ -1,0 +1,98 @@
+/* Section 1 Start
+    ------------------ */
+section.section1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0px 40px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* Section 1 Column 1 Start
+        -------------------------- */
+.section1-column1 {
+  width: 70%;
+}
+
+/* Section 1 Column 1 End 
+      ------------------------------------------------ */
+
+/* Section 1 Column 2 Start
+      -------------------------- */
+.section1-column2 {
+  width: 30%;
+}
+
+/* Section 1 Column 2 End 
+      ------------------------------------------------*/
+
+/* Section 1 End
+      ----------------------------------- */
+
+/* Section 2 Table Start
+      -------------------------- */
+section.section2 {
+  padding: 0px 40px;
+  /* width: 100%; */
+}
+
+/* Section 2 Table End
+      -------------------------- */
+
+/* Media Queries Start ----------------------------*/
+
+/* Large Laptop  */
+@media (width > 1024px) {
+}
+
+/* Normal Laptop  */
+@media (width <= 1024px) {
+  section.section1 {
+    padding: 0px 28px;
+  }
+  section.section2 {
+    padding: 0px 28px;
+  }
+}
+
+/* Tablet */
+@media (width <=768px) {
+  section.section1 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+  }
+
+  .section1-column1 {
+    width: 100%;
+  }
+
+  .section1-column2 {
+    width: 100%;
+  }
+  section.section2 {
+    padding: 0px 20px;
+  }
+}
+
+/* Large Mobile */
+@media (width <=425px) {
+  section.section1 {
+    padding: 0px 16px;
+  }
+
+  section.section2 {
+    padding: 0px 16px;
+  }
+}
+
+/* Medium Mobile */
+@media (320px < width <=375px) {
+}
+
+/* Small Mobile */
+@media (280px<= width <= 320px) {
+}
+
+/* Media Queries End ----------------------------*/

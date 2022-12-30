@@ -1,0 +1,114 @@
+#page-title {
+  /* background-color: #f4f5f7; */
+  margin-left: 40px;
+  font-size: 28px;
+}
+
+section.submit-req-main-section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 40px;
+  border-radius: 8px;
+}
+
+/* Leave Type Radio Options Start
+      --------------------- */
+.leave-type-radio {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.option-row1,
+.option-row2 {
+  display: flex;
+  gap: 20px;
+}
+
+.sr-leave-type-option {
+  display: flex;
+  width: 50%;
+  gap: 16px;
+  border: 1px solid #eff0f5;
+  border-radius: 8px;
+  align-items: center;
+  padding: 16px 12px;
+  min-height: 100px;
+}
+
+.sr-leave-type-option label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sr-leave-type-option label .sr-option-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Leave Type Radio Options End
+      --------------------------------------- */
+
+/* Date Range Start
+      ------------------- */
+input[type="date"] {
+  padding: 4px 12px;
+}
+
+.sr-date-start-end {
+  display: flex;
+  padding-left: 8px;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.sr-date-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14px;
+  color: #858585;
+}
+
+/* Date Range End
+      -------------------------------- */
+
+/* Management Note Start
+      ----------------------- */
+.sr-mngmnt-note textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  color: rgb(133, 133, 133);
+  border: 1px solid #eff0f5;
+  margin-bottom: 8px;
+}
+
+/* Management Note End
+      ------------------------------------- */
+
+/* Submit Button Start
+      ---------------- */
+.right-last-btton {
+  display: flex;
+  justify-content: end;
+}
+
+button.sr-btn-submit {
+  border: none;
+  background-color: #54afc2;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Submit Button End
+      ----------------------------------- */
+
+/* Main Section End 
+      ---------------------------------------*/
